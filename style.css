@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
+    padding: 0 10px;
 }
 
 /* Estilização do cabeçalho */
@@ -18,6 +19,7 @@ body {
     color: #fff;
     text-align: center;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .header h1 {
@@ -27,65 +29,61 @@ body {
 .header-image {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 /* Estilização da seção principal de produtos */
 main {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
+/* Estilização de cada produto */
 .product {
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 600px;
     overflow: hidden;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .product img {
     width: 150px;
     height: auto;
-    display: block;
+    border-radius: 5px;
+    margin-right: 20px;
 }
 
 .product-info {
-    padding: 20px;
     flex: 1;
 }
 
 .product-info h2 {
     margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 .product-info p {
     margin: 0;
+    font-size: 1.2em;
+    color: #555;
 }
 
-/* Estilização da seção de rodapé */
-.footer {
-    background: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+/* Estilização de links (caso adicione no futuro) */
+a {
+    color: #333;
+    text-decoration: none;
 }
 
-.footer img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px;
-}
-
-.footer-info {
-    margin-top: 10px;
+a:hover {
+    text-decoration: underline;
 }
 
 
