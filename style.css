@@ -60,7 +60,7 @@ main {
 }
 
 
-.product {
+.productchocolate {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -73,23 +73,23 @@ main {
     width: 100%;
 }
 
-.product img {
+.productchocolate img {
     max-width: 150px;
     height: auto;
     margin-right: 20px;
     border-radius: 8px;
 }
 
-.product-info {
+.productchocolate-info {
     flex: 1;
 }
 
-.product-info h2 {
+.productchocolate-info h2 {
     margin: 0 0 10px;
     color: #333;
 }
 
-.product-info p {
+.productchocolate-info p {
     margin: 0;
     font-size: 1.2em;
     color: #666;
