@@ -1,41 +1,23 @@
 .description {
-    background: #fafafa; /* Cor de fundo clara que combina com o visual do site */
+    background: #fff;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 30px;
+    border-radius: 8px;
+    padding: 20px;
     margin-bottom: 20px;
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil ao redor da caixa */
 }
 
 .description h2 {
-    margin-bottom: 20px;
-    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-size: 2em;
     color: #333;
-    font-weight: bold;
 }
 
 .description p {
     font-size: 1.2em;
     color: #555;
-    margin-bottom: 15px;
-    line-height: 1.6;
-}
-
-.description strong {
-    color: #d9534f; /* Cor de destaque para elementos importantes */
-}
-
-.description em {
-    font-style: italic;
-}
-
-.description img {
-    width: 100px;
-    height: auto;
-    margin: 20px 0;
 }
 
 
