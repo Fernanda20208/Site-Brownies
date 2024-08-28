@@ -59,8 +59,8 @@ main {
     color: #666;
 }
 
-/* Footer */
-.footer {
+
+.product {
     margin-bottom: 20%;
     text-align: center;
     padding: 20px;
@@ -75,12 +75,12 @@ main {
     border-radius: 8px;
 }
 
-.footer-info {
+.product-info h2 {
     margin-top: 10px;
     color:#333
 }
 
-.footer-info p {
+.product-info p {
     margin: 5px 0;
     font-size: 1.2em;
     color: #666;
