@@ -1,5 +1,5 @@
 .description {
-    background: #fff;
+    background: #fafafa; /* Cor de fundo clara que combina com o visual do site */
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 30px;
@@ -7,7 +7,7 @@
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil ao redor da caixa */
 }
 
 .description h2 {
