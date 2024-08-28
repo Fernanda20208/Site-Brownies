@@ -59,40 +59,28 @@ main {
     color: #666;
 }
 
-
-.productchocolate {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    max-width: 600px;
-    width: 100%;
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d89e77;
+    color: #fff;
 }
 
-.productchocolate img {
-    max-width: 150px;
+.footer img {
+    max-width: 200px;
     height: auto;
-    margin-right: 20px;
+    margin-bottom: 10px;
     border-radius: 8px;
 }
 
-.productchocolate-info {
-    flex: 1;
+.footer-info {
+    margin-top: 10px;
 }
 
-.productchocolate-info h2 {
-    margin: 0 0 10px;
-    color: #333;
-}
-
-.productchocolate-info p {
-    margin: 0;
+.footer-info p {
+    margin: 5px 0;
     font-size: 1.2em;
-    color: #666;
 }
 
 
