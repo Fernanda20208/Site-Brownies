@@ -43,7 +43,7 @@
     margin: 5px 0;
 }
 
-.instagram-link {
+.contact-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,12 +52,12 @@
     margin-top: 10px;
 }
 
-.instagram-link img {
+.contact-link .icon {
     width: 24px; /* Ajuste o tamanho conforme necessário */
     height: auto;
     margin-right: 8px;
 }
 
-.instagram-link:hover {
+.contact-link:hover {
     text-decoration: underline;
 }
